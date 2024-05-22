@@ -66,23 +66,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     createPeopleSelect();
 
-    // Crear los botones de horarios
-    function createTimeButtons() {
-        const startHour = 18;
-        const endHour = 23;
-        const interval = 15; // Intervalo de 15 minutos
-
-        for (let hour = startHour; hour <= endHour; hour++) {
-            for (let minute = 0; minute < 60; minute += interval) {
-                const button = document.createElement('button');
-                button.classList.add('time-button');
-                button.textContent = `${hour.toString().padStart(2, '0')}:${minute.toString().padStart(2, '0')}`;
-                timeButtonsContainer.appendChild(button);
-            }
-        }
-    }
-
-    createTimeButtons();
 });
 
 
