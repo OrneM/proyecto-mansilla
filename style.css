@@ -67,7 +67,7 @@ section img.logo {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    background-image: url(../preEntrega-mansilla/assets/vista-superior-comida-deliciosa-espacio-copiar.jpg);
+    background-image: url(./assets/vista-superior-comida-deliciosa-espacio-copiar.jpg);
     background-size: cover;
   
   }
